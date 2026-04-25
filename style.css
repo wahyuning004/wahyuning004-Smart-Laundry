@@ -1,0 +1,60 @@
+:root {
+    --dusty-pink: #DBA39A;
+    --soft-pink: #F0DBDB;
+    --cream: #FEFCF3;
+    --dark-text: #6D5D6E;
+}
+
+body {
+    background-color: var(--cream);
+    color: var(--dark-text);
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-aesthetic {
+    background: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(219, 163, 154, 0.1);
+}
+
+.btn-pink {
+    background-color: var(--dusty-pink);
+    color: white;
+    border-radius: 12px;
+    padding: 10px 25px;
+    transition: 0.3s;
+}
+
+.btn-pink:hover {
+    background-color: #C08277;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.table-custom {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.table-custom thead {
+    background-color: var(--dusty-pink);
+    color: white;
+}
+
+.border-pink {
+    border: 1px solid var(--soft-pink);
+}
+
+.border-pink:focus {
+    border-color: var(--dusty-pink);
+    box-shadow: 0 0 0 0.25rem rgba(219, 163, 154, 0.25);
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(219, 163, 154, 0.075)!important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
